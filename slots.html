@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project 1 Slots</title>
+    
+    <link href="css/slots.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<style type="text/css">
+    </style>
+    
+  </head>
+  
+  
+  <body>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-1.11.3.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="js/bootstrap.js"></script>
+    <script src="js/slots.js"></script>
+    
+    <div class = "container-fluid">
+    <h>Slot Machine</h>
+    
+    <div class="row">
+    
+    <div id = "s1" class="col-sm-3 col-xs-4 well">
+    <img id = "slot1" src="img/bar.jpg" class="img-fluid center-block" alt="">
+    </div>
+    
+    <div id = "s2" class="col-sm-3 col-xs-4 well">
+    <img id = "slot2" src="img/bar.jpg" class="img-fluid center-block" alt="">
+    </div>
+    
+    <div id = "s3" class="col-sm-3 col-xs-4 well">
+    <img id = "slot3" src="img/bar.jpg" class="img-fluid center-block" alt="">
+    </div>
+ 
+    <div id = "form" class = "col-sm-3 col-xs-4">
+    <form>
+    Money <br />
+    <input type = "text" id="Money" size="9" value="20"/><br/>
+
+    Bet <br />
+    <input type = "text" id="Bet" size ="9" value="1"/><br/>
+
+	<input type = "button" value="Lets Spin!" id ="submitter" onClick="DoSpin()"/><br/> <br/>
+    
+    <input type="text" size = "16" id="Result"/> <!--This is where the text would go whether you win or lose -->
+    </form>
+    </div>
+    
+
+    </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	font-style:oblique;
+	font-weight:bold;
+}
+
+h
+{
+	font-size:30px
+}
+
+#submitter
+{
+	cursor:default;
+	
+}
+#slot1
+{
+	max-width:100%;
+	height:auto;
+
+}
+
+#slot2
+{
+	max-width:100%;
+	height:auto;
+}
+
+#slot3
+{
+	max-width:100%;
+	height:auto;
+}
+
+#form
+{
+	padding-top:25px;
+	margin-bottom: 20px;
+    padding: 10px 15px;
+}
+
+#s1
+{
+	background-color:green;	
+	
+}
+
+#s2
+{
+	background-color:green;
+}
+
+#s3
+{
+	background-color:green;	
+}
+
